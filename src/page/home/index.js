@@ -4,7 +4,7 @@ import "./style.less"
 export default function index() {
   return (
     <div>
-      life is a movie
+      life is fucking a movie!
     </div>
   )
 }
