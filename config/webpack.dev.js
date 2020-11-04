@@ -7,14 +7,14 @@ const commonConfig = require('./webpack.common');    // 导入公共config
 const devServer = {
    compress:true,             // GZip压缩
    host: '127.0.0.1', 
-   port: 8080,
+   port: 2000,
 }
 
 const devConfig = {
   mode: 'development',
-  devServer,  // 自带热更新
   plugins: [
-  ]
+  ],
+  devServer  // 自带热更新
 }
 
 module.exports = merge(commonConfig, devConfig) 
